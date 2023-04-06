@@ -48,12 +48,7 @@ let index = 0
    nextSlideBtn.addEventListener("click",()=>{
   
     images[index].classList.remove("active")
-    // if (pageBtns.classList.contains("active")) {
-        
-    // } else {
-        
-    // }
-  
+    pageBtns[index].classList.remove("active")
 
     if (index < images.length -1) {
       index++

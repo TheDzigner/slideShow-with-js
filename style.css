@@ -24,6 +24,12 @@ body {
     box-shadow: 0 0 10px rgba(3,3,3,.5);
 }
 
+@media screen and (max-width: 600px) {
+    .container
+    {
+     width: 90%;
+    }
+   }
 .container:hover .nav-btns
 {
  opacity: 1;
